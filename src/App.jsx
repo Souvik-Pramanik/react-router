@@ -8,6 +8,7 @@ import UI_UX from './components/Ui_ux'
 import Frontend from './components/Frontend'
 import Backend from './components/Backend'
 import Database from './components/database'
+import User from './components/User'
 import {
   BrowserRouter as Router,
   Routes,
@@ -30,11 +31,14 @@ function App() {
                   <Link to ="/service">Services</Link>
                   <Link to ="/contact">Contact Us</Link>
                   <Link to ="/skills">Skills</Link>
+                  <Link to ="/user">User</Link>
+                  {/*<Link to ="/user/sonu">User</Link>*/}
                 <Routes>
                     <Route path='/'element={<Home/>}/>
                     <Route path='/about'element={<About/>}/>
                     <Route path='/service'element={<Service/>}/>
                     <Route path ='/contact'element={<Contact/>}/>
+                    <Route path ='/user/:name/:dept'element={<User/>}/>
                     <Route path ='/skills'element={<Skills/>}>
                     <Route path ='/skills/design'element={<UI_UX/>}/>
                     <Route path ='/skills/webfrontend'element={<Frontend/>}/>
