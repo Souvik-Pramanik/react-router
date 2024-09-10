@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-image: url('/public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .logo {
+    margin: 2% 0% 0% 4%;
+    color: #033c74;
+ }
+header{
+    display: flex;
+ }
+ .menu{
+    margin: 2% 0% 0% 40%;
+    color: #033c74;
+ }
+ .menu ul a{
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 25px;
+ }
+ .home{
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+     .home img{
+    border-radius: 20px;
+    height: 40vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .home h1{
+    text-align: center;
+    margin-top: -37%;
+ }
+ .home p{
+    color: black;
+    margin:5% 0% 0% 3%;
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    line-height: 40px;
+ }
+ .contact
+ {
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .contact img{
+    border-radius: 20px;
+    height: 50vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .contact-heading{
+   position: relative;
+   margin: 30% 0% 0% -26%;
+ }
+ .container form{
+   position: relative;
+   margin: 9% 0% 0% -29.5%;
+ }
+ .container form input,textarea,select{
+   border: none;
+   outline: none;
+   border-bottom: 2px solid black;
+   background: transparent;
+   border-radius: 8px;
+   width: 30%;
+   margin-top: 2%;
+ }
+ .container form::placeholder{
+   color: #000000;
+   font-weight: 500;
+ }
+ .container form #button{
+   width: 20%;
+   height: 2.5vh;
+   border: 2px solid black;
+   margin-left: 4%;
+ }
+ .container form #button:hover{
+   border: none;
+   outline: none;
+   background-color: #000000;
+   color: white;
+ }
+ .skills{
+   margin: 25% 0% 0% -80%;
+ }
+ .skills ul a{
+   margin-right: 10%;
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 15px;
+ }
+ .skills ul a:hover{
+   background-color: #000000;
+   color: white;
+ }
+.figma h1{
+   margin: 10% 0% 0% 30%;
+   font-size: 35px;
+   font-variant: small-caps;
+   letter-spacing: 2px;
+}
