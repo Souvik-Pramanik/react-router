@@ -6,8 +6,11 @@
 <p>In react router helps to redirect the pages from one to another without loading the browser.It works very felixible and in effcient way.</p>
 <ul>
  <li>Routing</li>
+ <img src="cover.PNG">
  <li>Nested Routing</li>
+ <img src="nested.PNG">
  <li>Passing Parameter Routing - using useParams Hook (that returns a dynamic parameter of the URL that the user is currently on)</li>
+ <img src="params.PNG">
  &nbsp;&nbsp;<p>-----This three routing have shown here.------</p>
 </ul>
 <h2>To install router on your code editor terminal or in cmd - run this command</h2>
