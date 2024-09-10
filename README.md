@@ -1,6 +1,6 @@
 <h1 align ="center">React Router</h1>
-<h2><a href="https://hyperdevil-x.github.io/formvalidation/" target="_blank">Form Link</a></h2>
-<!-- <img src="cover.PNG"> -->
+<!-- <h2><a href="https://hyperdevil-x.github.io/formvalidation/" target="_blank">Form Link</a></h2> -->
+<img src="cover.PNG">
  <h3  align ="center"><b>REACT ROUTER</b></h3>
  <br>
 <p>In react router helps to redirect the pages from one to another without loading the browser.It works very felixible and in effcient way.</p>
