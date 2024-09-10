@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import UI_UX from './components/Ui_ux'
 import Frontend from './components/Frontend'
 import Backend from './components/Backend'
-import Database from './components/Database'
+import Database from './components/database'
 import User from './components/User'
 import {
   BrowserRouter as Router,
